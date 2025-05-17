@@ -417,3 +417,45 @@ br {
     font-size: 14px;
   }
 }
+
+/* Style untuk section perjalanan */
+#perjalanan {
+  background-color: #f9faff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 15px rgba(62, 111, 244, 0.2);
+  margin-bottom: 50px;
+}
+
+#perjalanan h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#perjalanan p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#perjalanan .img-fluid {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+#perjalanan .img-fluid:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(62, 111, 244, 0.3);
+}
+
+#perjalanan p.text-center {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #3e6ff4;
+}

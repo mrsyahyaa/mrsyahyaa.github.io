@@ -4,331 +4,213 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Rizal</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <!-- Hotjar Tracking Code for my site -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:3810438,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
   </head>
   <body>
-    <style>
-      p {
-        background-position: center;
-      }
-    </style>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><b>RIZAL</b></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <a class="navbar-brand fw-bold text-primary" href="#">RIZAL</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#Experience">Experience</a>
-            </li>
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#perjalanan">Perjalanan</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
+    <!-- Header -->
     <header class="container pb-5 pt-5 header" id="home">
-      <div class="row d-flex" style="height: 80vh">
-        <div class="col-6 m-auto">
-          <h1>HI</h1>
-          <h1>
-            I'am <b class="change-color" style="color: #3e6ff4">Rizal</b>
-          </h1>
-          <h1 class="">
-             Team<br />
-            <div class="typing">Leadership</div>
-          </h1>
-          <a
-            href="https://wa.me/62895602987147"
-            class="btn button-contact"
-            style="margin-bottom: 100px"
-          >
-            Contact
-          </a>
-          <div class="d-flex">
-            <a style="color: black" href="https://www.tiktok.com/@izal.sofyan"
-              ><i class="icon-sosmed fa-brands fa-tiktok fa-2x me-4"></i
-            ></a>
-            <a
-              style="color: black"
-              href="https://www.instagram.com/izal.sofyan/"
-            >
-              <i class="icon-sosmed fa-brands fa-instagram fa-2x me-4"></i
-            ></a>
-            <a
-              style="color: black"
-              href="https://www.linkedin.com/in/muhamadrizalsofyan//"
-            >
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="Logo LinkedIn" width="100"></a>
+      <div class="row align-items-center" style="min-height: 100vh">
+        <div class="col-lg-6">
+          <h1 class="fw-light">HI</h1>
+          <h1 class="fw-bold">I'm <span class="text-primary change-color">Rizal</span></h1>
+          <h2 class="typing">Team Leadership</h2>
+          <a href="https://wa.me/62895602987147" class="btn btn-primary mt-4 px-4">Contact</a>
+          <div class="mt-3">
+            <a href="https://www.tiktok.com/@izal.sofyan" class="text-dark me-3"><i class="fab fa-tiktok fa-2x"></i></a>
+            <a href="https://www.instagram.com/izal.sofyan/" class="text-dark me-3"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/muhamadrizalsofyan/">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="LinkedIn" width="100">
+            </a>
           </div>
         </div>
-        <div class="col-6 m-auto d-flex justify-content-end">
-          <img src="img/kotakkotak.png" class="kotak" alt="" />
+        <div class="col-lg-6 text-end position-relative">
+          <img src="img/kotakkotak.png" class="position-absolute kotak" alt="" />
           <div class="home__img">
-            <svg
-              class="home__blob"
-              viewBox="0 0 479 467"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-            >
+            <svg class="home__blob" viewBox="0 0 479 467">
               <mask id="mask0" mask-type="alpha">
-                <path
-                  d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
-                />
+                <path d="M9.19 145.96C34.03 76.58 114.87 54.73 184.11 29.48C245.80 6.99 311.86 -14.95 370.74 14.14C431.21 44.03 467.95 107.51 477.19 174.31C485.90 237.23 454.93 294.38 416.51 344.95C373.74 401.25 326.07 462.80 255.44 466.19C179.42 469.83 111.55 422.14 65.16 361.80C17.48 299.81 -17.16 219.58 9.19 145.96Z" />
               </mask>
               <g mask="url(#mask0)">
-                <path
-                  d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
-                />
-                <image
-                  class="home__blob-img"
-                  x="50"
-                  y="60"
-                  href="img/profil2.png"
-                />
+                <path d="M9.19 145.96C34.03 76.58 114.87 54.73 184.11 29.48C245.80 6.99 311.86 -14.95 370.74 14.14C431.21 44.03 467.95 107.51 477.19 174.31C485.90 237.23 454.93 294.38 416.51 344.95C373.74 401.25 326.07 462.80 255.44 466.19C179.42 469.83 111.55 422.14 65.16 361.80C17.48 299.81 -17.16 219.58 9.19 145.96Z" />
+                <image class="home__blob-img" x="50" y="60" href="img/profil2.png" />
               </g>
             </svg>
           </div>
         </div>
       </div>
-      <div class="down">
-        <i class="icon-down fa-solid fa-angles-down fa-2x"></i>
-      </div>
+      <!-- Animasi tambahan -->
+<style>
+  section {
+    animation: fadeInUp 1s ease-in-out;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
     </header>
 
-    <main>
-      <!-- ABOUT -->
-      <section
-        id="about"
-        class="about container pt-4 pb-5"
-        style="margin-bottom: 40px"
-      >
-        <h3 class="center" style="color: #3e6ff4">About</h3>
-        <div class="row biodata-wrap">
-          <div class="col-lg-6 d-flex justify-content-center">
-            <div class="row m-auto d-flex justify-content-center">
-              <div class="col-4 about-img"></div>
-              <div class="col-4 about-img"></div>
-              <div class="col-4 about-img"></div>
-            </div>
-          </div>
-          <div class="col-lg-6 p-sm-3" style="padding-top: 50px">
-            <div class="">
-              <div
-                id="carouselExampleControls"
-                class="carousel slide"
-                data-bs-ride="carousel"
-              >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <h4 class="fa-angle-left mb-4">Informasi Pribadi</h4>
-                    <div style="margin-bottom: 20px">
-                      <div class="biodata d-flex">
-                        <h4>Nama :</h4>
-                        <p>Muhamad Rizal sofyan</p>
-                      </div>
-                      <div class="line"></div>
-                      <div class="biodata d-flex">
-                        <h4>Kontak :</h4>
-                        <p>muhammadrizalsofyan@gmail.com, +62895602987147</p>
-                      </div>
-                      <div class="line"></div>
-                      <div class="biodata d-flex">
-                        <h4>Lokasi:</h4>
-                        <p>Kota Bandung</p>
-                      </div>
-                      <div class="line"></div>
-                      <h4 class="fa-angle-left mb-4">Ringkasan Profil</h4>
-                    <div style="margin-bottom: 20px">
-                      <div class="biodata d-flex">
-                        <p>Halo, saya Rizal, Store Manager di Leader Store dengan pengalaman lebih dari 3 tahun di industri retail. Saya ahli dalam manajemen tim, pelayanan pelanggan, dan strategi penjualan. Fokus saya adalah membangun tim solid, meningkatkan kepuasan pelanggan, dan menciptakan pengalaman belanja terbaik. Saya berkomitmen untuk mendorong pertumbuhan Leader Store dan menjadikannya pilihan utama pelanggan. Terima kasih.                          
-                          </p>
-                      </div>
-                      <div class="line"></div>
-                    </div>
-                    <h4 class="fa-angle-left mb-4">Pendidikan</h4>
-                    <div style="margin-bottom: 20px">
-                    <div class="biodata d-flex">
-                      <p><h5>Teknik Komputer Jaringan</h5></p> <p>SMK TERPADU ADDIMYATI, Bandung, Lulus:2019</p>
-                    </div>
-                    <div class="line"></div>
-                    <h4 class="fa-angle-left mb-4">Pengalaman kerja</h4>
-                    <div style="margin-bottom: 20px">
-                    <div class="biodata d-flex">
-                      *Leader Store*|PT.TATA JAGO UTAMA, Bandung | Okt 2021 – Sekarang
-                      <p>
-                         <ol>  
-                              <li>- Manajemen Operasional: Mengelola kegiatan harian, termasuk pengaturan stok bahan baku, pengawasan kebersihan, dan kepatuhan terhadap standar kesehatan dan keselamatan. 
-                                </li>
-                              <li>- Pelayanan Pelanggan: Mengembangkan strategi untuk meningkatkan pengalaman pelanggan, menangani keluhan, dan memastikan kepuasan konsumen.</li>
-                              <li>- Manajemen Tim: melatih, dan memotivasi staf agar bekerja efisien dan tetap semangat dalam lingkungan kerja yang cepat.
-                                </li>
-                        </ol>
-                      </p>
-                      *KPPS* Periode Pemilu: Pemilu 2019
-                      <p>
-                        <ol>
-                          <li>Menyiapkan logistik dan tata letak TPS sesuai standar KPU.</li>
-                          <li>Melayani pemilih, memeriksa DPT, dan membimbing proses pencoblosan.</li>
-                          <li>Menghitung suara secara transparan dan mencatat hasil pada formulir resmi.</li>
-                          <li>Menyerahkan hasil penghitungan ke PPK dengan aman.</li>
-                          <li>Melayani 300+ pemilih dengan tertib.</li>
-                          <li>Memastikan proses pemungutan suara berjalan lancar dan sesuai aturan.</li>
-                        </ol>
-                      </p>
-                      *PTPS* Periode Pemilu: Pemilu 2024
-                    </div>
-                  </div>
-                
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleControls"
-                  data-bs-slide="prev"
-                >
-                  <span aria-hidden="true"
-                    ><i class="fa-solid fa-angle-left fa-2x"></i>
-                  </span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleControls"
-                  data-bs-slide="next"
-                >
-                  <span aria-hidden="true"
-                    ><i class="fa-solid fa-angle-right fa-2x"></i
-                  ></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
+    <!-- About Section -->
+    <section id="about" class="container py-5">
+      <h3 class="text-center text-primary mb-4">About</h3>
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center mb-4 mb-md-0">
+          <div class="d-flex justify-content-center gap-3">
+            <div class="about-img"></div>
+            <div class="about-img"></div>
+            <div class="about-img"></div>
           </div>
         </div>
-      </section>
+        <div class="col-md-6">
+          <h5 class="fw-bold">Informasi Pribadi</h5>
+          <p><strong>Nama:</strong> Muhamad Rizal Sofyan</p>
+          <p><strong>Kontak:</strong> muhammadrizalsofyan@gmail.com | +62895602987147</p>
+          <p><strong>Lokasi:</strong> Kota Bandung</p>
 
-      <!-- experience -->
-      <section id="Experience" class="container pt-4 pb-5">
-        <h3 class="center mb-5" style="color: #3e6ff4">Experience</h3>
-        <div class="row mb-3">
-          <div class="col-md-3 d-flex mb-3">
-            <div class="Experience-photo m-auto photo-1">
-              <div class="title-photo">
-                <p><b>Manajemen Store</b></p>
-                <p>Bertanggung jawab dalam manajemen dan bisnis toko milik PT. TATA JAGO UTAMA dengan omzet (....) setiap bulan</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex mb-3">
-            <div class="Experience-photo m-auto photo-2">
-              <div class="title-photo">
-                <p><b>Cashier</b></p>
-                <p>Menghimpun puluhan transaksi penjualan per hari secara tunai, debit atau kredit dengan akurat untuk menunjang operional bisnis</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex mb-3">
-            <div class="Experience-photo m-auto photo-3">
-              <div class="title-photo">
-                <p><b>Administrasi</b></p>
-                <p>Berkontribusi dalam pemantauan kinerja keuangan toko lewat pembuatan rekapan dan catatan ratusan data transaksi secara rutin</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex mb-3">
-            <div class="Experience-photo m-auto photo-4">
-              <div class="title-photo">
-                <p><b>Customer service</b></p>
-                <p>Memberikan pelayanan maksimal >10 orang pembeli di toko setiap hari demi menjamin kepuasan pelanggan</p>
-              </div>
+          <h5 class="fw-bold mt-4">Ringkasan Profil</h5>
+          <p>Store Manager di Leader Store dengan pengalaman >3 tahun. Ahli dalam manajemen tim, strategi penjualan, dan pelayanan pelanggan. Fokus pada pencapaian target, membangun tim solid, dan menjaga kepuasan pelanggan.</p>
+
+          <h5 class="fw-bold mt-4">Pendidikan</h5>
+          <p><strong>SMK Terpadu Addimyati</strong> – Teknik Komputer Jaringan (Lulus 2019)</p>
+
+          <h5 class="fw-bold mt-4">Pengalaman Kerja</h5>
+          <ul>
+            <li><strong>Store Leader</strong> – PT. Tata Jago Utama (Okt 2021 – Sekarang)</li>
+            <ul>
+              <li>Manajemen operasional harian toko</li>
+              <li>Meningkatkan pengalaman dan kepuasan pelanggan</li>
+              <li>Melatih dan memotivasi tim kerja</li>
+            </ul>
+            <li><strong>KPPS (2019)</strong> & <strong>PTPS (2024)</strong></li>
+            <ul>
+              <li>Menyiapkan logistik dan tata letak TPS</li>
+              <li>Melayani dan membimbing pemilih</li>
+              <li>Menghitung suara dan menyerahkan hasil</li>
+              <!-- Link ke website lain -->
+                <a href="https://drive.google.com/file/d/1zRpiz37nogreAMvDshmlf-XFUsPF84KB/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    Sertifikat Penghargaan
+                </a>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="Experience" class="container py-5">
+      <h3 class="text-center text-primary mb-5">Experience</h3>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="Experience-photo photo-1">
+            <div class="title-photo">
+              <p><strong>Manajemen Store</strong></p>
+              <p>Mengelola toko PT. Tata Jago Utama dengan omzet rutin bulanan</p>
             </div>
           </div>
         </div>
-    <footer class="footer mt-5 container-fluid d-flex justify-content-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 pt-4 d-flex justify-content-center">
-            <h4><b>Rizal</b></h4>
-          </div>
-          <div class="col-md-4 pt-4 d-flex justify-content-center">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#Experience">Experience</a>
-          </div>
-          <div class="col-md-4 pt-4 d-flex justify-content-center">
-            <a href="https://www.tiktok.com/@izal.sofyan"
-              ><i class="fa-brands fa-tiktok fa-2x me-4"></i
-            ></a>
-            <a href="https://www.instagram.com/izal.sofyan/">
-              <i class="fa-brands fa-instagram fa-2x me-4"></i
-            ></a>
-            <a
-              style="color: black"
-              href="https://www.linkedin.com/in/muhamadrizalsofyan//"
-            >
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="Logo LinkedIn" width="120"></i
-            ></a>
+        <div class="col-md-3">
+          <div class="Experience-photo photo-2">
+            <div class="title-photo">
+              <p><strong>Cashier</strong></p>
+              <p>Mengelola transaksi harian tunai, debit, dan kredit secara akurat</p>
+            </div>
           </div>
         </div>
-        <div class="center mt-5"><p>muhammadrizalsofyan@gmail.com</p></div>
+        <div class="col-md-3">
+          <div class="Experience-photo photo-3">
+            <div class="title-photo">
+              <p><strong>Administrasi</strong></p>
+              <p>Mencatat dan menganalisis data keuangan serta kinerja penjualan</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="Experience-photo photo-4">
+            <div class="title-photo">
+              <p><strong>Customer Service</strong></p>
+              <p>Melayani lebih dari 10 pembeli setiap hari dengan pelayanan maksimal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PDF Penunjang Viewer Section -->
+    <section id="cv" class="container py-5">
+      <h3 class="text-center text-primary mb-4">Lihat Dokumen PDF Saya</h3>
+
+        <div class="mb-4">
+      <h5 class="text-center">CV Rizal</h5>
+        <div class="ratio ratio-16x9">
+      <iframe src="SK MUHAMAD RIZAL SOFYAN.pdf" frameborder="0"></iframe>
+        </div>
+      </div>
+
+      <div class="mb-4">
+      <h5 class="text-center">Sertifikat Penghargaan</h5>
+        <div class="ratio ratio-16x9">
+      <iframe src="E-Sertfikat PTPS 2024 an. MUHAMAD RIZAL SOFYAN (1) 1.pdf" frameborder="0"></iframe>
+        </div>
+      </div>
+
+    <!-- Perjalanan Section -->
+    <section id="perjalanan" class="container py-5">
+      <h3 class="text-center text-primary mb-4">Perjalanan</h3>
+      <p>Perjalanan karier saya dimulai dari pendidikan di SMK, bekerja di retail sebagai cashier, hingga dipercaya menjadi Store Head sejak 2021. Setiap tahap memberi pelajaran tentang disiplin, pelayanan, dan kepemimpinan.</p>
+      <div class="text-center mt-4">
+        <img src="img/perjalanan.jpg" class="img-fluid rounded shadow" alt="Perjalanan Karier Rizal" width="600" />
+        <p class="text-center">Perjalanan Karier Rizal</p>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer mt-5">
+      <div class="container text-center pt-4">
+        <h4 class="fw-bold">Rizal</h4>
+        <div class="d-flex justify-content-center gap-3">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#Experience">Experience</a>
+        </div>
+        <div class="mt-3">
+          <a href="https://www.tiktok.com/@izal.sofyan" class="text-white me-3"><i class="fab fa-tiktok fa-2x"></i></a>
+          <a href="https://www.instagram.com/izal.sofyan/" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/muhamadrizalsofyan/">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="LinkedIn" width="120">
+          </a>
+        </div>
+        <p class="mt-4">muhammadrizalsofyan@gmail.com</p>
       </div>
     </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
